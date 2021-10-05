@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e446a1e383.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.scss">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+        <title>MP1</title>
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <div id="navbar">
+            <p id="name">YONGHUN CHANG</p>
+            <nav id="navbar-right">
+                <a class="main active" href="#main">Home</a>
+                <a class="edu" href="#edu">Education</a>
+                <a class="experience" href="#experience">Experience</a>
+                <a class="contacts" href="#contacts">Contact</a>
+            </nav>
+            
+        </div>
+
+        <!-- Homepage -->
+        <section id="main">
+                <div id="main-left">
+                    <div id="profile-content">
+                        <img id="profile" src="assets/YongHun.png" >
+                        <br>
+                        <p id="profile-name">
+                            YongHun 
+                            <br>
+                            Chang
+                        </p>
+                        <div class="divide-intro"></div>
+                        <p id="description">
+                            UNIVERSITY STUDENT
+                        </p>
+                    </div>
+                    <div id="media-buttons">
+                        <div>
+                            <a href="https://www.linkedin.com/in/yonghun-chang" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/linkedin.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/yc_photo.graphy/" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/instagram.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto: yh12.chang@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/gmail-logo.png">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="main-right">
+                    <p id="greeting">
+                        HELLO
+                    </p>
+                    <p id="summary">
+                        Here's a little introduction about myself!
+                        <br>
+                        <br>
+                        <br>
+                        I am an undergraduate student in Mechanical Engineering at University of Illinois at Urbana-Champaign. I am currently pursuing a minor in Computer Science and enjoy working with data. My concentration of study is in Biomechanics and I wish to work with prosthetics / surgical devices in the future.
+                        I recently interned in South Korea as a Mechanical Engineer at JPI Healthcare Solutions, designing and optimizing the functionality of collimators in CT scanners.         
+                    </p>
+                </div>
+        </section>
+
+        <!-- Education Page -->
+        <section id="edu">
+            <div id="UIUCimg">
+                <h2 id="school-name1">
+                    The University of Illinois
+                </h2>
+                <h2 id="school-name2">
+                    at
+                    <br>
+                    Urbana-Champaign
+                </h2>
+            </div>
+            <div id="edu-container-left">
+                <div id="major">
+                    <img src="assets/mechse.png">
+                    <P id="edu-subheading">
+                        Major
+                    </p>
+                    <div class="divide-intro"></div>
+                    <p id="edu-content">
+                        Mechanical Engineering
+                    </p>
+                </div>
+            </div>
+            
+            <div id="edu-container-right">
+                <div id="minor">
+                    <img src="assets/compsi.png">
+                    <p id="edu-subheading">
+                        Minor
+                    </p>
+                    <div class="divide-intro"></div>
+                    <p id="edu-content">
+                        Computer Science
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Page -->
+        <section id="experience">
+            <div id="experience-left">
+                <img id="skill-logo" src="assets/skillslogo2.jpg">
+            </div>
+            
+            <div id="experience-right">
+                <div id="scrollcont">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    
+                <div id="experience-container">
+                    <div class="slides fade">
+                        <div class="slide-title">
+                            SKILLS
+                        </div>
+                        <div class="divide-intro"></div>
+                        <div class="slide-content">
+                            <div id="experience-model">
+                                <img src="assets/model.png">
+                                <p>
+                                    Experienced with modeling software such as Solidworks, Creo Parametric, Fusion360, Autodesk Inventor, AutoCAD, and Revit.
+                                </p>
+                            </div>
+                            <div id="experience-code">
+                                <img src="assets/code.png">
+                                <p>
+                                    Experienced with coding languages such as SQL, MATLAB, Python, HTML, CSS, Javacript, and Arduino.
+                                </p>
+                            </div>
+                            <div id="experience-design">
+                                <img src="assets/design.png">
+                                <p>
+                                    Experienced with Adobe Software such as Photoshop, Lightroom, and Illustrator.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slides fade">
+                        <div class="slide-title">
+                            INTERNSHIP
+                        </div>
+                        <div class="divide-intro"></div>
+                        <div class="slide-content">
+                            <div id="experience-internship">
+                                <img src="assets/jpi.jpg">
+                                <p>
+                                    I had the opportunity to intern at a company named JPI Healthcare Solutions in South Korea in the Summer of 2021. I was a Mechanical Engineering Intern and was part of their Hardware Team. My tasks at the job were related to design optimization of collimators used in CT scanners. CAD modeling was done through SolidWorks and e-drawings were produced using AutoCAD. Precise modeling of each component and assembly was required to ensure correct model assembly. 
+                                </p>
+
+                                <!-- Trigger/Open The Modal -->
+                                <button id="myBtn">Company Video</button>
+
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <video controls src="assets/jpi.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slides fade">
+                        <div class="slide-title">
+                            PROJECTS
+                        </div>
+                        <div class="divide-intro"></div>
+                        <div class="slide-content">
+                            <div id="experience-project">
+                                <img src="assets/solemate.png">
+                                <p>
+                                    SoleMate is a start-up project that began in the Summer of 2020 with a group of engineering students at UIUC. Our start-up design is geared towards those who are shoe enthusiasts and wish to maintain their shoe's prime conditions. Our purpose for this project is to design a device that cleans shoes daily. As the concerns of COVID-19 increased, the scope of the project was focused on the ability to sanitize shoes after a day at work. 
+                                    <br><br>
+                                    Currently, the team consists of YongHun Chang (myself) and Wonjoon Lee, who is an electrical engineering major at UIUC and the creator of this start-up. Our start-up is supported by the Zero2One incubator on campus. 
+                                    <br><br>
+                                    Further updates for this start-up will be uploaded onto the SoleMate website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide Indicator -->
+                    <div id="indicator">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+            
+
+        <!-- Contacts Page -->
+        <section id="contacts">
+            <div id="contact-left">
+                <div id="contact-content">
+                    <p id="greeting">
+                        YOU MAY CONTACT ME THROUGH...
+                    </p>
+                </div>
+                <div id="linkedin">
+                    <a href="https://www.linkedin.com/in/yonghun-chang" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/linkedin.svg">
+                        
+                    </a>
+                    <p id="subheading">
+                        VIEW MY LINKEDIN!
+                    </p>
+                    <p id="summary">
+                        You can view my projects and experiences on my LinkedIn account. Click the icon to see more.
+                    </p>
+                </div>
+                <div id="gmail">
+                    <a href="mailto: yh12.chang@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/gmail-logoC.png">
+                    </a>
+                    <p id="subheading">
+                        CONTACT ME via EMAIL!
+                    </p>
+                    <p id="summary">
+                        If you have any questions or want to reach out, please email me by clicking on the icon above.
+                    </p>
+                </div>
+                <div id="instagram">
+                    <a href="https://www.instagram.com/yc_photo.graphy/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/instagramC.png">
+                    </a>
+                    <p id="subheading-insta">
+                        CHECK OUT MY PHOTOGRAPHY INSTAGRAM!
+                    </p>
+                    <p id="summary-insta">
+                        Come visit my photography instagram page. I upload travel photos of locations I have visited. Click the instagram icon to go to my page!
+                    </p>
+                </div>
+            </div>
+            <div id="contact-right">
+                <img id="contact-img" src="assets/social2.png" >
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <div id="footer">
+            <div id="footer-top-container">
+                <div id="footer-top-container-left">
+                    <div class="ftc-heading">
+                        <p>
+                            STAY CONNECTED
+                        </p>
+                    </div>
+                    <div class="divide-footer"></div>
+                    <div class="ftc-content">
+                        <p>
+                            Use any of the following platforms to stay connected.
+                        </p>
+                    </div>
+                    <div id="ftcl-media">
+                        <div>
+                            <a href="https://www.linkedin.com/in/yonghun-chang" target="_blank" rel="noopener noreferrer">
+                                <span class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto: yh12.chang@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <span class="icon">
+                                    <i class="fas fa-envelope-open"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/yc_photo.graphy/" target="_blank" rel="noopener noreferrer">
+                                <span class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-top-container-middle">
+                    <div class="ftc-heading">
+                        <p>
+                            ASPIRING MECHANICAL ENGINEER
+                        </p>
+                    </div>
+                    <div class="divide-footer"></div>
+                    <div class="ftc-content">
+                        Pursuing a Bachelor's in Science in Mechanical Engineering at The University of Illinois at Urbana-Champaign and a Minor in Computer Science. Searching for full-time biomechanics position in healthcare and medical technology.
+                    </div>
+                </div>
+                <div id="footer-top-container-right">
+                    <div class="ftc-heading">
+                        <p>
+                            NAVIGATE
+                        </p>
+                    </div>
+                    <div class="divide-footer"></div>
+                    <div id="ftcr-nav">
+                        <a href="#main">Home</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#edu">Education</a>
+                        <a href="#contacts">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-bottom-container">
+                <p>
+                    Location
+                </p>
+                <p>
+                    Chicago, IL & Champaign, IL
+                </p> 
+                <p>
+                    |
+                </p>
+                <p>
+                    Main
+                </p>
+                <p>
+                    (310) 892 . 9188
+                </p>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/main.js">
+            
+        </script>
+    </body>
+</html>
